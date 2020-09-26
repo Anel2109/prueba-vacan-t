@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+    "primary": #007bff,
+    "info": tomato,
+    "danger": teal
+);
+
+* {
+    font-family: Poppins,Helvetica,"sans-serif";
+    font-size: 14px;
+    color: #3f4254;
+}
+
+i {
+    color: #fff;
+}
+
+.edit_button {
+    margin-right: 10px;
+}
+
+.initRow {
+    margin: 30px 0;
+}
+
+.fa-check-circle {
+    margin-right: 5px;
+}
+
+.cancelButton {
+    background-color: #f1f3f5;
+    color: #000;
+    border: none
+}
+
+.nameTable {
+    cursor: pointer;
+}
